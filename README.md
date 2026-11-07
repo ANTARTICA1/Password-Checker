@@ -30,6 +30,11 @@ $$\text{Score} = 5 - \sum_{i=1}^{5} \mathbb{I}(\text{Rule}_i = \text{False})$$
 
 In addition to static structural entropy, the utility queries a localized breach dictionary (`rockyou.txt` or equivalent wordlist) using streaming line-by-line inspection to prevent excessive memory consumption. If the input password exists within the wordlist, a critical security advisory is displayed regardless of its structural score.
 
+
+## Execution Preview
+
+[![Execution Preview Status](https://img.shields.io/badge/CLI_Preview-Documentation_in_Progress-2563eb?style=for-the-badge&logo=python&logoColor=white)](https://github.com/ANTARTICA1/Password-Checker)
+
 ## Features
 
 - Real-Time Heuristic Feedback: Returns granular improvement suggestions for each unmet security criterion.
